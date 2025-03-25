@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Weather Forecast</h1>
+      <input type="text" id="city" placeholder="Enter City" />
+      <button id="getWeatherButton">Get Weather</button>
+      <div id="current-weather">
+        <h2>Current Weather</h2>
+        <p>State: <span id="current-state"></span></p>
+        <p>Description: <span id="current-description"></span></p>
+      </div>
+      <div id="forecast">
+        <h2>Forecast</h2>
+        <div id="forecast-days"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
