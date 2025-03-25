@@ -1,5 +1,5 @@
 const API_KEY = "f30efbbf01120d1514ff5da730215ff1"; // Replace with your API key
-const BASE_URL = "http://api.openweathermap.org/data/2.5/forecast";
+const BASE_URL = "https://api.openweathermap.org/data/2.5/forecast";
 const DAYS_TO_PREDICT = 5;
 
 const weatherMapping = {
